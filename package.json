@@ -1,0 +1,25 @@
+{
+  "name": "ffmpeg",
+  "version": "1.0.0",
+  "description": "change video to all type",
+  "main": "main",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Le Tuan Anh",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "electron": "^12.0.2"
+  },
+  "repository": "https://github.com/electron/electron-api-demos",
+  "dependencies": {
+    "@electron/remote": "^1.1.0",
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "electron-log": "^4.3.2",
+    "electron-store": "^7.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "glob": "^7.1.6",
+    "update-electron-app": "^2.0.1"
+  }
+}
